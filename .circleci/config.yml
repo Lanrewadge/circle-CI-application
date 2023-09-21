@@ -11,8 +11,8 @@ jobs:
       - image: cimg/python:3.10.0-node
         auth:
             # Environmental variables set from $context_name context
-            username: lanrewadge
-            password: kuY$V_#qK@3A9F7
+            username: $dockerhub_username
+            password: $dockerhub_password
 
     steps:
       - checkout
@@ -47,8 +47,8 @@ jobs:
       - image: cimg/python:3.10.0-node
         auth:
           # Environmental variables set from $context_name context
-          username: lanrewadge
-          password: kuY$V_#qK@3A9F7
+          username: $dockerhub_username
+          password: $dockerhub_password
     
     steps:
       - checkout
