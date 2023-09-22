@@ -75,5 +75,3 @@ workflows:
               - lint_files
             context:
               - docker credentials
-           
-
